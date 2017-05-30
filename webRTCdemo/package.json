@@ -1,0 +1,38 @@
+{
+    "name": "com.revolunet.webrtcdemo",
+    "displayName": "webRTCdemo",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-ios": "^4.4.0",
+        "cordova-plugin-add-swift-support": "^1.6.2",
+        "cordova-plugin-console": "^1.0.7",
+        "cordova-plugin-device": "^1.1.6",
+        "cordova-plugin-ios-camera-permissions": "^1.1.1",
+        "cordova-plugin-iosrtc": "^4.0.1",
+        "cordova-plugin-whitelist": "^1.3.2"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-iosrtc": {},
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-add-swift-support": {},
+            "cordova-plugin-console": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-ios-camera-permissions": {
+                "CAMERA_USAGE_DESCRIPTION": "This app needs camera access",
+                "MICROPHONE_USAGE_DESCRIPTION": "This app needs microphone access",
+                "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs photo library access"
+            }
+        },
+        "platforms": [
+            "ios"
+        ]
+    }
+}
