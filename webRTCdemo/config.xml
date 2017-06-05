@@ -7,7 +7,7 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-    <content src="index.html" />
+    <content src="three.js/examples/mobile-performance.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -22,6 +22,7 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <preference name="AllowInlineMediaPlayback" value="true" />
     <engine name="ios" spec="^4.4.0" />
     <plugin name="cordova-plugin-add-swift-support" spec="^1.6.2" />
     <plugin name="cordova-plugin-console" spec="^1.0.7" />

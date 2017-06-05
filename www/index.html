@@ -44,35 +44,7 @@
 </head>
 
 <body>
-
-  <div id="container" onclick="toggle()">
-    <video autoplay></video>
-  </div>
-
-<script>
-  // Just for Cordova apps.
-  document.addEventListener('deviceready', function () {
-    // Just for iOS devices.
-    if (window.device.platform === 'iOS') {
-      cordova.plugins.iosrtc.registerGlobals();
-
-      // load adapter.js
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = "js/adapter-latest.js";
-      script.async = false;
-      document.getElementsByTagName("head")[0].appendChild(script);
-    }
-  });
-
-  function trace(arg) {
-    var now = (window.performance.now() / 1000).toFixed(3);
-    console.log(now + ': ', arg);
-  }
-</script>
-  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
-  <script src="main.js"></script>
-  <script src="cordova.js"></script>
-
+    <p><a href="./example.html">simple WebRTC camera example</a></p>
+    <p><a href="./three.js/examples/mobile-performance.html">AR.js mobile performance</a></p>
 </body>
 </html>

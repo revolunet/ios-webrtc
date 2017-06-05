@@ -11,3 +11,5 @@ Use these plugin :
  - cordova-plugin-device
  - cordova-plugin-ios-camera-permissions
 
+## Usage
+
