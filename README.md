@@ -11,5 +11,5 @@ Use these plugin :
  - cordova-plugin-device
  - cordova-plugin-ios-camera-permissions
 
-## Usage
+See working AR.js demo page : https://revolunet.github.io/ios-webrtc/www/three.js/examples/mobile-performance.html
 
